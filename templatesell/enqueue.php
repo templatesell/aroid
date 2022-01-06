@@ -14,7 +14,7 @@ function aroid_scripts() {
     wp_enqueue_style('aroid-sign', '//fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap', array(), null);
     
 	
-    wp_enqueue_style( 'animate-css', get_template_directory_uri() . '/css/animate.min.css', array(), '4.5.0' );
+    wp_enqueue_style( 'animate-css', get_template_directory_uri() . '/css/animate.css', array(), '4.5.0' );
 
     wp_enqueue_style( 'grid-css', get_template_directory_uri() . '/css/bootstrap.css', array(), '4.5.0' );
     //*Font-Awesome-master*/
