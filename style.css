@@ -2533,7 +2533,11 @@ object {
     overflow: hidden;
 }
 .post-content.post-overly {
-    position: relative;
+    padding: 15px;
+    background: #f7f7f7;
+    margin-bottom: 15px;
+}
+.has-post-thumbnail .post-content.post-overly {
     padding: 15px;
     word-wrap: break-word;
     opacity: 0;
@@ -2546,25 +2550,26 @@ object {
     transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
+    margin-bottom: 0;
 }
 
-.post-wrap:hover .post-content.post-overly{
+.has-post-thumbnail .post-wrap:hover .post-content.post-overly{
     bottom: 0;
     opacity: 1;
     visibility: visible;
 }
-.post-content.post-overly span,
-.post-content.post-overly i,
-.post-content.post-overly a{
+.has-post-thumbnail .post-content.post-overly span,
+.has-post-thumbnail .post-content.post-overly i,
+.has-post-thumbnail .post-content.post-overly a{
     color: #ffffff;
 }
-.post-content.post-overly .post-title{
+.has-post-thumbnail .post-content.post-overly .post-title{
     padding: 0;
     margin: 0 0 15px;
     font-size: 16px;
     font-weight: 400;
 }
-.post-content.post-overly .post-date{
+.has-post-thumbnail .post-content.post-overly .post-date{
     margin-bottom: 0;
 }
 .entry-content h1 a,
@@ -4682,7 +4687,7 @@ article {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
-    padding:0 5px;
+    padding:0 10px;
 }
 
 .middle-column article.masonry-post,
