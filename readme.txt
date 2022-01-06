@@ -3,8 +3,8 @@
 Contributors: templatesell
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog, news, photography
 Requires at least: 4.5
-Requires PHP: 4.7
-Tested up to: 5.6
+Requires PHP: 5.2
+Tested up to: 5.8
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -30,7 +30,10 @@ Aroid includes support for Infinite Scroll in Jetpack.
 * Custom pagination for numeric is made.
 
 == Changelog ==
-= 1.0.0 - January 05 2021 =
+= 1.0.1 - January 06 2022 =
+* Fixed reviewer issues
+
+= 1.0.0 - January 05 2022 =
 * Initial release
 
 == Credits ==
@@ -41,7 +44,7 @@ Aroid is distributed under the terms of the GNU GPL v2 or later.
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 * normalize.css https://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](https://opensource.org/licenses/MIT)
-* BreadcrumbTrail, Copyright (c) 2008 - 2015, Justin Tadlock http://themehybrid.com/plugins/breadcrumb-trail
+* BreadcrumbTrail, Copyright (c) 2008 - 2015, Justin Tadlock http://themehybrid.com/plugins/breadcrumb-trail License: https://github.com/justintadlock/breadcrumb-trail/blob/master/license.md
 * Theia Sticky Sidebar https://github.com/WeCodePixels/theia-sticky-sidebar [MIT license]
 * Slick Slider https://github.com/kenwheeler/slick/blob/master/LICENSE [The MIT License (MIT)]
 * Font-Awesome https://github.com/FortAwesome/Font-Awesome FontAwesome 4.6.3 Copyright 2012 Dave Gandy Font License: SIL OFL 1.1 Code License: MIT License http://fontawesome.io/license/
